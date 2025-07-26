@@ -25,14 +25,14 @@ Perfect for modern websites, this navbar adapts beautifully between desktop and 
 ## 📸 Preview
 
 > *(You can include a screenshot or gif here)*  
-> ![Preview](screenshot.png)
+> ![Preview](fluxiria.png)
 
 ---
 
 ## ⚙️ How to Use
 
 1. Clone or download this repo
-2. Open `index.html` in your browser
+2. Open `index0.html` in your browser
 3. Customize the content or Tailwind classes as needed
 
 ---
