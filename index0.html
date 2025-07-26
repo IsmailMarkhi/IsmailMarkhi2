@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxira - Dance With The Flow Of Change</title>
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <!-- 
+    ===========================
+    =Link with tailwind by cdn= :)
+    ===========================
+     -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 
+    =================================
+    =Link with boxicon for use icons=
+    =================================
+    -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="flex items-center justify-around md:py-4 py-4 md:p-0 bg-gray-100 w-full shadow-2xl fixed top-0 left-0 z-50">
+        <a href="" class="text-2xl text-sky-700 font-bold">Fluxira</a>
+        <nav class="hidden md:flex bg-sky-700 text-white ">
+            <a href="#" class="px-6 py-2 hover:bg-sky-600 border-r transition duration-400">Home</a>
+            <a href="#" class="px-6 py-2 hover:bg-sky-600 border-r transition duration-400">About</a>
+            <a href="#" class="px-6 py-2 hover:bg-sky-600 transition duration-400">Products</a>
+        </nav>
+        <!-- let's create navbar form for small devices -->
+        <nav id="mobilNav" class="hidden md:hidden  absolute top-full left-0 bg-sky-700 text-white py-2">
+            <a href="#" class="block py-2 px-8 hover:bg-sky-600 border-b duration-300 ">Home</a>
+            <a href="#" class="block py-2 px-8 hover:bg-sky-600 border-b duration-300 ">About</a>
+            <a href="#" class="block py-2 px-8 hover:bg-sky-600 duration-300 ">Products</a>
+        </nav>
+        <!-- add menu icon  -->
+         <button class="md:hidden bg-sky-700 px-2 py-1 absolute right-[40px]" onclick="Toggle()"><i class="bx bx-menu" style="color:white;"></i></button>
+         <!-- let's make it dynamique -->
+          <script>
+            function Toggle(){
+                const mobilNav=document.getElementById('mobilNav');
+                const IsHidden=mobilNav.classList.contains('hidden');
+                // control visibility :)
+                mobilNav.classList.toggle('hidden');
+                //control icons
+                const icon=document.querySelector('button i');
+                icon.className = IsHidden ? 'bx bx-x' : 'bx bx-menu';
+            }
+          </script>
+    </header>
+</body>
+</html>
