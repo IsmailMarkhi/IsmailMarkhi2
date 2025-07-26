@@ -25,7 +25,8 @@ Perfect for modern websites, this navbar adapts beautifully between desktop and 
 ## 📸 Preview
 
 > *(You can include a screenshot or gif here)*  
-> ![Preview](![Uploading fluxiria.png…]())
+> ![Preview](<img width="706" height="533" alt="fluxiria" src="https://github.com/user-attachments/assets/7e7074dc-d5e6-4375-9505-bed557e3caa8" />
+)
 
 
 ---
